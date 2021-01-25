@@ -42,7 +42,7 @@ func NewDiceWithEmoji(chatID int64, emoji string) DiceConfig {
 	}
 }
 
-// NewDeleteMessage creates a request to delete a message.
+// NewDeleteMessage 11111creates a request to delete a message.
 func NewDeleteMessage(chatID int64, messageID int) DeleteMessageConfig {
 	return DeleteMessageConfig{
 		ChatID:    chatID,
